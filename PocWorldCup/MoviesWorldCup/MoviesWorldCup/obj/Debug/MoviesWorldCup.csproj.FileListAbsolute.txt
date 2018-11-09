@@ -1,0 +1,9 @@
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\bin\Debug\MoviesWorldCup.exe.config
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\bin\Debug\MoviesWorldCup.exe
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\bin\Debug\MoviesWorldCup.pdb
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\obj\Debug\MoviesWorldCup.csprojAssemblyReference.cache
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\obj\Debug\MoviesWorldCup.csproj.CoreCompileInputs.cache
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\obj\Debug\MoviesWorldCup.csproj.CopyComplete
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\obj\Debug\MoviesWorldCup.exe
+C:\Users\ernandsi\source\repos\MoviesWorldCup\MoviesWorldCup\obj\Debug\MoviesWorldCup.pdb
