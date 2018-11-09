@@ -1,0 +1,15 @@
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\MoviesWorldCup.Application.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\MoviesWorldCup.Application.pdb
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\MoviesWorldCup.Domain.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\MoviesWorldCup.Repository.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\MoviesWorldCup.Domain.pdb
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\MoviesWorldCup.Repository.pdb
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\obj\Debug\MoviesWorldCup.Application.csprojAssemblyReference.cache
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\obj\Debug\MoviesWorldCup.Application.csproj.CoreCompileInputs.cache
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\obj\Debug\MoviesWorldCup.Application.csproj.CopyComplete
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\obj\Debug\MoviesWorldCup.Application.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Application\obj\Debug\MoviesWorldCup.Application.pdb

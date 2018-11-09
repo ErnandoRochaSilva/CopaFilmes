@@ -1,0 +1,5 @@
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Domain\bin\Debug\MoviesWorldCup.Domain.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Domain\bin\Debug\MoviesWorldCup.Domain.pdb
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Domain\obj\Debug\MoviesWorldCup.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Domain\obj\Debug\MoviesWorldCup.Domain.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupSite\MoviesWorldCup.Domain\obj\Debug\MoviesWorldCup.Domain.pdb

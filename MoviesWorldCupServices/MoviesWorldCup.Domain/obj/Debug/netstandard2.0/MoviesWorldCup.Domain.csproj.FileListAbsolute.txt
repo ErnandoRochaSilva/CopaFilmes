@@ -1,0 +1,9 @@
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\bin\Debug\netstandard2.0\MoviesWorldCup.Domain.deps.json
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\bin\Debug\netstandard2.0\MoviesWorldCup.Domain.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\bin\Debug\netstandard2.0\MoviesWorldCup.Domain.pdb
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\obj\Debug\netstandard2.0\MoviesWorldCup.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\obj\Debug\netstandard2.0\MoviesWorldCup.Domain.AssemblyInfoInputs.cache
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\obj\Debug\netstandard2.0\MoviesWorldCup.Domain.AssemblyInfo.cs
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\obj\Debug\netstandard2.0\MoviesWorldCup.Domain.dll
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\obj\Debug\netstandard2.0\MoviesWorldCup.Domain.pdb
+C:\Users\Neilton\Desktop\ProjetoLambda\Projeto\MoviesWorldCupServices\MoviesWorldCup.Domain\obj\Debug\netstandard2.0\MoviesWorldCup.Domain.csprojAssemblyReference.cache

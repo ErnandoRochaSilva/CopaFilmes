@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Pagina inicial";
+}
+
+@model IEnumerable<MoviesWorldCupSite.Models.MoviesViewModel>
+
+@{
+    Html.RenderPartial("~/Views/Campeonato/Competidores/_SelecaoCompetidores.cshtml", Model);
+}

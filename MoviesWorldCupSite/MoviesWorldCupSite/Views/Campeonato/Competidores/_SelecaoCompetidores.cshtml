@@ -1,0 +1,49 @@
+﻿@model IEnumerable<MoviesWorldCupSite.Models.MoviesViewModel>
+
+<div class="jumbotron">
+    <center>
+        <h2>Campeonato de filmes: <strong>Fase de seleção</strong></h2>
+    </center>
+    <p class="lead">
+        Selecione 8 dos 16 filmes dispostos a seguir e depois clique no botão "Iniciar campeonato" para prosseguir.
+    </p>
+</div>
+
+<form id="formSelectCompetidores" role="form" class="form" method="post" action="@Url.Action("ProcessarCampeonato","Campeonato")">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-6">
+                Selecionados<strong><div id="TotalFilmes">0</div></strong><div id="TotalFilmes"> de @Model.Count() filmes</div>
+            </div>
+            <div class="col-md-6">
+                <input id="ProcessarCampeonato" value="Iniciar campeonato" class="btn btn-danger btn-lg" style="float: right;">
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            @if (Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <div class="col-md-3">
+                        <div class="checkbox" id=@item.Id style="width: 250px; height: 50px; background: darkgray;  border-radius: 10px;">
+                            <label>
+                                @{ var detalhesFilme = item.Titulo + " - " + item.Ano;}
+                                @Html.CheckBox(detalhesFilme, false)
+                                @Html.Label(detalhesFilme)
+                            </label>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="alert alert-danger" id="divAviso">
+                    <p>Não foi possível conectar aos dados para exibição, favor recarregar a página caso queira tentar novamente.</p>
+                </div>
+            }
+        </div>
+    </div>
+</form>
