@@ -44,7 +44,17 @@ namespace MoviesWorldCup.Application.Services
 
             champions.AddRange(ProcessarCampeonato(moviesSelect.ToList()));
 
-            return champions;
+            foreach (var item in champions)
+            {
+                item.Success = true;
+
+                if (!item.Campeao)
+                {
+                    item.Ordem = 1;
+                }
+            }
+
+            return champions.OrderBy(s => s.Ordem);
         }
 
         /// <summary>
