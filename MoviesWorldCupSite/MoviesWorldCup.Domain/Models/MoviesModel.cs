@@ -9,5 +9,7 @@ namespace MoviesWorldCup.Domain.Models
         public int Ano { get; set; }
         public Decimal Nota { get; set; }
         public bool Campeao { get; set; }
+        public bool Success { get; set; }
+        public int Ordem { get; set; } = 0;
     }
 }
