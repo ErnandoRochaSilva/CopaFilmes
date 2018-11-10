@@ -75,6 +75,10 @@
       <Project>{C9E4C487-8509-4567-B403-94A39D3360A4}</Project>
       <Name>MoviesWorldCup.Application</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MoviesWorldCup.Domain\MoviesWorldCup.Domain.csproj">
+      <Project>{322A6760-B562-4360-B848-05866142D6F7}</Project>
+      <Name>MoviesWorldCup.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MoviesWorldCupSite\MoviesWorldCupSite.csproj">
       <Project>{F4FAF546-2664-4452-A34D-5D7E88CD1265}</Project>
       <Name>MoviesWorldCupSite</Name>

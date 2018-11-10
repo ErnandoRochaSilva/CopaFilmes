@@ -1,17 +1,14 @@
-﻿using MoviesWorldCupSite.Models;
-using System;
+﻿using MoviesWorldCup.Domain.Models;
+using MoviesWorldCupSite.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MoviesWorldCup.UnitTest.TestingTools
 {
     public static class MoqTools
     {
-        public static MoviesViewModel GerarMovies()
+        public static MoviesModel GerarMovies()
         {
-            return new MoviesViewModel
+            return new MoviesModel
             {
                 Id = "",
                 Titulo = "",
@@ -21,16 +18,129 @@ namespace MoviesWorldCup.UnitTest.TestingTools
             };
         }
 
-        public static IEnumerable<MoviesViewModel> GerarListaMoviesVazia()
+        public static IEnumerable<MoviesModel> GerarListaMoviesVazia()
         {
-            IEnumerable<MoviesViewModel> lista = new List<MoviesViewModel>();
+            IEnumerable<MoviesModel> lista = new List<MoviesModel>();
 
             return lista;
         }
 
-        public static IEnumerable<MoviesViewModel> GerarListaMovies()
+        public static IEnumerable<MoviesModel> GerarListaMovies()
         {
-            IEnumerable<MoviesViewModel> lista = new List<MoviesViewModel>();
+            var lista = new List<MoviesModel>(){
+                new MoviesModel {
+                    Id = "tt3606756",
+                    Titulo = "Os Incríveis 2",
+                    Ano = 2018,
+                    Nota = 8.5m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt4881806",
+                    Titulo = "Jurassic World: Reino Ameaçado",
+                    Ano = 2018,
+                    Nota = 6.7m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt5164214",
+                    Titulo = "Oito Mulheres e um Segredo",
+                    Ano = 2018,
+                    Nota = 6.3m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt7784604",
+                    Titulo = "Hereditário",
+                    Ano = 2018,
+                    Nota = 7.8m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt4154756",
+                    Titulo = "Vingadores: Guerra Infinita",
+                    Ano = 2018,
+                    Nota = 8.8m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt5463162",
+                    Titulo = "Deadpool 2",
+                    Ano = 2018,
+                    Nota = 8.1m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt3778644",
+                    Titulo = "Han Solo: Uma História Star Wars",
+                    Ano = 2018,
+                    Nota = 7.2m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt3501632",
+                    Titulo = "Thor: Ragnarok",
+                    Ano = 2017,
+                    Nota = 7.9m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt2854926",
+                    Titulo = "Te Peguei!",
+                    Ano = 2017,
+                    Nota = 7.1m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt0317705",
+                    Titulo = "Os Incríveis",
+                    Ano = 2004,
+                    Nota = 8.0m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt3799232",
+                    Titulo = "A Barraca do Beijo",
+                    Ano = 2018,
+                    Nota = 6.4m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt1365519",
+                    Titulo = "Tomb Raider: A Origem",
+                    Ano = 2018,
+                    Nota = 6.5m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt1825683",
+                    Titulo = "Pantera Negra",
+                    Ano = 2018,
+                    Nota = 7.5m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt5834262",
+                    Titulo = "Hotel Artemis",
+                    Ano = 2018,
+                    Nota = 6.3m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt7690670",
+                    Titulo = "Superfly",
+                    Ano = 2018,
+                    Nota = 5.1m,
+                    Campeao = false
+                },
+                new MoviesModel {
+                    Id = "tt6499752",
+                    Titulo = "Upgrade",
+                    Ano = 2018,
+                    Nota = 7.8m,
+                    Campeao = false
+                },
+            };
 
             return lista;
         }
