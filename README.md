@@ -2,7 +2,7 @@ Projeto: MoviesWorld Cup
 
 IDE: Visual Studio 2017
 Linguagem: HTML/ Javascript / C# / CSS
-Framework: Bootstrap 4
+Framework: Bootstrap 4 / JQuery
 .Net FrameWork 4.6.2
 
  ==== Descrição ====
