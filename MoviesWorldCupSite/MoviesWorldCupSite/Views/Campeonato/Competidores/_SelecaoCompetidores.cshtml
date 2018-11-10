@@ -1,5 +1,13 @@
 ﻿@model IEnumerable<MoviesWorldCupSite.Models.MoviesViewModel>
 
+@{
+    Html.RenderPartial("~/Views/Campeonato/Campeos/_CompetidoresCampeos.cshtml");
+}
+
+<div id="modal-mensagem" style="display: none">
+
+</div>
+
 <div class="jumbotron">
     <center>
         <h2>Campeonato de filmes: <strong>Fase de seleção</strong></h2>
@@ -8,7 +16,6 @@
         Selecione 8 dos 16 filmes dispostos a seguir e depois clique no botão "Iniciar campeonato" para prosseguir.
     </p>
 </div>
-
 <form id="formSelectCompetidores" role="form" class="form" method="post" action="@Url.Action("ProcessarCampeonato","Campeonato")">
     <div class="jumbotron">
         <div class="row">
@@ -19,9 +26,7 @@
                 <input id="ProcessarCampeonato" value="Iniciar campeonato" class="btn btn-danger btn-lg" style="float: right;">
             </div>
         </div>
-
         <hr>
-
         <div class="row">
             @if (Model.Any())
             {
@@ -31,7 +36,7 @@
                         <div class="checkbox" id=@item.Id style="width: 250px; height: 50px; background: darkgray;  border-radius: 10px;">
                             <label>
                                 @{ var detalhesFilme = item.Titulo + " - " + item.Ano;}
-                                @Html.CheckBox(detalhesFilme, false)
+                                @Html.CheckBox(detalhesFilme, false, new { @Id = @item.Id })
                                 @Html.Label(detalhesFilme)
                             </label>
                         </div>
