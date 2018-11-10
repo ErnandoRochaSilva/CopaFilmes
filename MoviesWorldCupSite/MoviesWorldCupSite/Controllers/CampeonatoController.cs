@@ -1,10 +1,7 @@
 ﻿using MoviesWorldCup.Application.Services;
 using MoviesWorldCup.Domain.Models;
-using MoviesWorldCupSite.Models.DTO;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace MoviesWorldCupSite.Controllers
@@ -12,21 +9,52 @@ namespace MoviesWorldCupSite.Controllers
     public class CampeonatoController : Controller
     {
         private readonly MoviesAppService moviesAppService = new MoviesAppService();
+        IEnumerable<MoviesModel> campeos = new List<MoviesModel>();
 
         /// <summary>
-        /// Página dos vencedores da competição
+        /// Página dos vencedores da competição (modal)
         /// </summary>
-        /// <param name="movies"></param>
+        /// <param name="moviesIds">Id's dos competidores (filmes) selecionados para competição</param>
         /// <returns>Retorna página com detalhes do vencedores da competição</returns>
         [HttpPost]
-        public ActionResult ProcessarCampeonato(IEnumerable<MoviesModel> movies)
+        public ActionResult ProcessarCampeonato(string[] moviesIds)
         {
-            if (movies == null)
-                movies = new List<MoviesModel>();
+            IEnumerable<MoviesModel> competidores = FiltrarSelecionados(moviesIds);
 
-            IEnumerable<MoviesModel> campeos = moviesAppService.GerarCampeonato(movies);
+            campeos = moviesAppService.GerarCampeonato(competidores);
 
-            return PartialView("~/Views/Campeonato/Competidores/_CompetidoresCampeos.cshtml", campeos);
+            return Json(campeos, JsonRequestBehavior.AllowGet);
+        }
+        /// <summary>
+        /// Filtrar lista com competidores selecionados para campeonato
+        /// </summary>
+        /// <param name="filtro">Id's dos competidores selecionados</param>
+        /// <returns>Retorna lista dos competidores selecionados</returns>
+        public IEnumerable<MoviesModel> FiltrarSelecionados(string[] filtro)
+        {
+            IEnumerable<MoviesModel> listaFilmes = moviesAppService.ConsultarTodos();
+
+            string filtroIds = filtro[0].ToString();
+
+            filtroIds = LimpaFiltros(filtroIds);
+
+            listaFilmes = listaFilmes.Where(c => filtroIds.Contains(c.Id));
+
+            return listaFilmes;
+        }
+
+        /// <summary>
+        /// Limpar string de filtro para de competidores do campeonato
+        /// </summary>
+        /// <param name="filtro">retorna string pronta para filtro</param>
+        /// <returns></returns>
+        public string LimpaFiltros(string filtro)
+        {
+            var filtroLimpo = filtro.Replace("[", "").Replace("]", "");
+            filtroLimpo = filtroLimpo.Replace("{", "").Replace("{", "");
+            filtroLimpo = filtroLimpo.Replace(@"\", "");
+
+            return filtroLimpo;
         }
     }
 }
